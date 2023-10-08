@@ -30,7 +30,7 @@ screen = pg.display.set_mode((width, height + 100), 0, 32)
 pg.display.set_caption("My amazing attempt at video game development")
 
 initiating_window = pg.image.load("modified_cover.png")
-x_img = pg.image.load("x_modified.png")
+x_img = pg.image.load("X_modified.png")
 y_img = pg.image.load("o_modified.png")
 
 initiating_window = pg.transform.scale(
